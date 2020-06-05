@@ -8,8 +8,8 @@ from m5.objects import *
 
 from BaseTopology import SimpleTopology
 
-class HyperflexLIONS(SimpleTopology):
-    description='HyperflexLIONS'
+class HyperLIONS(SimpleTopology):
+    description='HyperLIONS'
 
     def __init__(self, controllers):
         self.nodes = controllers
@@ -21,6 +21,7 @@ class HyperflexLIONS(SimpleTopology):
         num_tor_routers  = (k/4) *(k/8) * (k/8)
         intra_pod = k/4
         total_num_routers = num_tor_routers
+	
         link_latency   = options.link_latency # used by simple and garnet
         router_latency = options.router_latency # only used by garnet
 
@@ -76,7 +77,7 @@ class HyperflexLIONS(SimpleTopology):
                         int_links.append(IntLink(link_id=link_count,
                                                 src_node=routers[(j*k/4)+i],
                                                 dst_node=routers[(j*k/4)+l],
-                                                latency=link_latency/2,
+                                                latency=link_latency,
                                                 weight=1))
                         
 
@@ -88,7 +89,7 @@ class HyperflexLIONS(SimpleTopology):
                         int_links.append(IntLink(link_id=link_count,
                                                 src_node=routers[(j*k)+i],
                                                 dst_node=routers[(j*k)+l],
-                                                latency=link_latency/2,
+                                                latency=link_latency,
                                                 weight=1))
 
         for j in xrange(128):
@@ -98,7 +99,7 @@ class HyperflexLIONS(SimpleTopology):
                     int_links.append(IntLink(link_id=link_count,
                                             src_node=routers[j],
                                             dst_node=routers[i],
-                                            latency=link_latency/2,
+                                            latency=link_latency,
                                             weight=1))
                         
         print("LINK Count******************", link_count)
