@@ -879,9 +879,9 @@ class AddrRange(ParamValue):
     def getValue(self):
         # Go from the Python class to the wrapped C++ class
         from _m5.range import AddrRange
-
+        # print(long(self.intlvMatch), long(self.start))
         return AddrRange(long(self.start), long(self.end),
-                         self.masks, int(self.intlvMatch))
+                         self.masks, long(self.intlvMatch))
 
 # Boolean parameter type.  Python doesn't let you subclass bool, since
 # it doesn't want to let you create multiple instances of True and
