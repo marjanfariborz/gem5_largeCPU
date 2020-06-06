@@ -1,6 +1,16 @@
 Based on the gem5 repository in google source with commit: "9fc9c67b4242c03f165951775be5cd0812f2a705"
 
+```sh
+git clone https://gem5.googlesource.com/public/gem5
+git checkout 9fc9c67b4242c03f165951775be5cd0812f2a705
+```
 
+## Build
+```scons build/NULL/gem5.debug PROTOCOL=Garnet_standalone```
+## Run
+Using FatTree.sh, HyperLION.sh, and HyperflexLION.sh
+
+----------------------------------------
 This is the gem5 simulator.
 
 The main website can be found at http://www.gem5.org
