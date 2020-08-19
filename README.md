@@ -8,7 +8,7 @@ git checkout 9fc9c67b4242c03f165951775be5cd0812f2a705
 ## Build
 ```scons build/NULL/gem5.debug PROTOCOL=Garnet_standalone```
 ## Topology
-The topology files for Fat-Tree, 3D-Hyper-LIONS, and 3D-Hyper-FlexLIONS are located in: ``configs/topologies/`` directory
+Our implementation of Fat-Tree, 3D-Hyper-LIONS, and 3D-Hyper-FlexLIONS topologies are located in: ``configs/topologies/`` directory
 ## Run
 Using FatTree.sh, HyperLION.sh, and HyperflexLION.sh
 
