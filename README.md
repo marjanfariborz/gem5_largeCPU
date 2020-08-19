@@ -9,8 +9,22 @@ git checkout 9fc9c67b4242c03f165951775be5cd0812f2a705
 ```scons build/NULL/gem5.debug PROTOCOL=Garnet_standalone```
 ## Topology
 Our implementation of Fat-Tree, 3D-Hyper-LIONS, and 3D-Hyper-FlexLIONS topologies are located in: ``configs/topologies/`` directory
+### Fat-Tree:
+* 3-layer Fat-Tree
+* k= 32
+* Number of pods = 32
+* Number of ToRs = 512
+* Number of aggregation routers = 512
+* Number of core routers = 256
+### Hyper-LIONS:
+* k = 32
+* Number of pods = 16
+* Number of Routers = 128
+
 ## Run
 Using FatTree.sh, HyperLION.sh, and HyperflexLION.sh
+
+We used the synthetic traffics that already exists in the gem5 source file. User can change it using --synthetic option. More detailed information is located [here](https://www.gem5.org/documentation/general_docs/ruby/garnet_synthetic_traffic/#:~:text=The%20Garnet%20Synthetic%20Traffic%20provides,only%20simulations%20with%20synthetic%20traffic). 
 
 ----------------------------------------
 This is the gem5 simulator.
