@@ -7,6 +7,8 @@ git checkout 9fc9c67b4242c03f165951775be5cd0812f2a705
 
 ## Build
 ```scons build/NULL/gem5.debug PROTOCOL=Garnet_standalone```
+## Topology
+The topology files for Fat-Tree, 3D-Hyper-LIONS, and 3D-Hyper-FlexLIONS are located in: ``configs/topologies/`` directory
 ## Run
 Using FatTree.sh, HyperLION.sh, and HyperflexLION.sh
 
@@ -41,10 +43,3 @@ The basic source release includes these subdirectories:
    - tests: regression tests
    - util: useful utility programs and files
 
-To run full-system simulations, you will need compiled system firmware
-(console and PALcode for Alpha), kernel binaries and one or more disk
-images.
-
-If you have questions, please send mail to gem5-users@gem5.org
-
-Enjoy using gem5 and please share your modifications and extensions.
