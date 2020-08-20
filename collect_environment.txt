@@ -1,0 +1,329 @@
+LESSOPEN=| /usr/bin/lesspipe %s
+MAIL=/var/mail/USER
+USER=USER
+SSH_CLIENT= **************
+SHLVL=1
+HOME=/home/USER
+OLDPWD=/home/USER
+SSH_TTY=/dev/pts/8
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/824378/bus
+LIBVIRT_DEFAULT_URI=qemu:///system
+LOGNAME=USER
+_=./collect_environment.sh
+XDG_SESSION_ID=349
+TERM=xterm
+PATH=/home/USER/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+XDG_RUNTIME_DIR=/run/user/824378
+DISPLAY=localhost:10.0
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+KRB5CCNAME=FILE:/tmp/krb5cc_824378_3S01Kb
+SHELL=/bin/bash
+LESSCLOSE=/usr/bin/lesspipe %s %s
+PWD=/home/USER/Author-Kit
+SSH_CONNECTION=192.168.99.216 51147 169.237.79.11 22
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+LSB Version:	core-9.20170808ubuntu1-noarch:security-9.20170808ubuntu1-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.4 LTS
+Release:	18.04
+Codename:	bionic
+Linux shasta 5.4.1 #1 SMP Sun Mar 15 00:35:20 PDT 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:         x86_64
+CPU op-mode(s):       32-bit, 64-bit
+Byte Order:           Little Endian
+CPU(s):               256
+On-line CPU(s) list:  0-254
+Off-line CPU(s) list: 255
+Thread(s) per core:   1
+Core(s) per socket:   64
+Socket(s):            2
+NUMA node(s):         2
+Vendor ID:            AuthenticAMD
+CPU family:           23
+Model:                49
+Model name:           AMD EPYC 7702 64-Core Processor
+Stepping:             0
+CPU MHz:              1499.998
+CPU max MHz:          2000.0000
+CPU min MHz:          1500.0000
+BogoMIPS:             4000.15
+Virtualization:       AMD-V
+L1d cache:            32K
+L1i cache:            32K
+L2 cache:             512K
+L3 cache:             16384K
+NUMA node0 CPU(s):    0-63,128-191
+NUMA node1 CPU(s):    64-127,192-254
+Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+MemTotal:       1056661424 kB
+MemFree:        1039855244 kB
+MemAvailable:   1046086632 kB
+Buffers:          167508 kB
+Cached:         11038720 kB
+SwapCached:        11524 kB
+Active:          7896156 kB
+Inactive:        4500796 kB
+Active(anon):    1157808 kB
+Inactive(anon):    33508 kB
+Active(file):    6738348 kB
+Inactive(file):  4467288 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       9765884 kB
+SwapFree:        9408096 kB
+Dirty:               152 kB
+Writeback:             0 kB
+AnonPages:       1187948 kB
+Mapped:           246292 kB
+Shmem:               400 kB
+KReclaimable:    1035996 kB
+Slab:            2472716 kB
+SReclaimable:    1035996 kB
+SUnreclaim:      1436720 kB
+KernelStack:       74256 kB
+PageTables:        50100 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    538096596 kB
+Committed_AS:   23146172 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1448740 kB
+VmallocChunk:          0 kB
+Percpu:           182272 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:     1171456 kB
+DirectMap2M:    229361664 kB
+DirectMap1G:    843055104 kB
+System:    Host: shasta Kernel: 5.4.1 x86_64 bits: 64 Desktop: N/A Distro: Ubuntu 18.04.4 LTS
+Machine:   Device: server System: GIGABYTE product: R282-Z90-00 v: 0100 serial: N/A
+           Mobo: GIGABYTE model: MZ92-FS0-00 v: 01010101 serial: N/A
+           UEFI [Legacy]: GIGABYTE v: R13 date: 02/25/2020
+CPU(s):    2 64 core AMD EPYC 7702s (-MCP-SMP-) cache: 65536 KB
+           clock speeds: max: 2000 MHz 1: 1497 MHz 2: 1498 MHz 3: 1499 MHz 4: 1499 MHz 5: 1497 MHz 6: 1497 MHz
+           7: 1499 MHz 8: 1497 MHz 9: 1498 MHz 10: 1498 MHz 11: 1498 MHz 12: 1498 MHz 13: 1798 MHz 14: 1498 MHz
+           15: 1386 MHz 16: 1491 MHz 17: 1500 MHz 18: 1500 MHz 19: 1498 MHz 20: 1498 MHz 21: 1499 MHz
+           22: 1498 MHz 23: 1499 MHz 24: 1381 MHz 25: 1498 MHz 26: 1499 MHz 27: 1497 MHz 28: 1798 MHz
+           29: 1497 MHz 30: 1498 MHz 31: 1498 MHz 32: 1497 MHz 33: 1497 MHz 34: 1497 MHz 35: 1498 MHz
+           36: 1499 MHz 37: 1499 MHz 38: 1498 MHz 39: 1499 MHz 40: 1498 MHz 41: 1498 MHz 42: 1499 MHz
+           43: 1498 MHz 44: 1499 MHz 45: 1498 MHz 46: 1497 MHz 47: 1498 MHz 48: 1499 MHz 49: 1498 MHz
+           50: 1498 MHz 51: 1497 MHz 52: 1497 MHz 53: 1799 MHz 54: 1497 MHz 55: 1498 MHz 56: 1795 MHz
+           57: 1500 MHz 58: 1498 MHz 59: 1497 MHz 60: 1799 MHz 61: 1488 MHz 62: 1296 MHz 63: 1283 MHz
+           64: 1285 MHz 65: 1498 MHz 66: 1497 MHz 67: 1481 MHz 68: 1499 MHz 69: 1499 MHz 70: 1498 MHz
+           71: 1499 MHz 72: 1499 MHz 73: 1498 MHz 74: 1497 MHz 75: 1498 MHz 76: 1497 MHz 77: 1493 MHz
+           78: 1498 MHz 79: 1497 MHz 80: 1862 MHz 81: 1496 MHz 82: 1497 MHz 83: 1500 MHz 84: 1499 MHz
+           85: 1499 MHz 86: 1497 MHz 87: 1499 MHz 88: 1499 MHz 89: 1497 MHz 90: 1500 MHz 91: 1497 MHz
+           92: 1498 MHz 93: 1498 MHz 94: 1499 MHz 95: 1498 MHz 96: 1499 MHz 97: 1499 MHz 98: 1498 MHz
+           99: 1498 MHz 100: 1497 MHz 101: 1498 MHz 102: 1497 MHz 103: 1499 MHz 104: 1496 MHz 105: 1499 MHz
+           106: 1499 MHz 107: 1497 MHz 108: 1498 MHz 109: 1498 MHz 110: 1498 MHz 111: 1497 MHz 112: 1499 MHz
+           113: 1499 MHz 114: 1499 MHz 115: 1500 MHz 116: 1498 MHz 117: 1498 MHz 118: 1496 MHz 119: 1499 MHz
+           120: 1499 MHz 121: 1499 MHz 122: 1499 MHz 123: 1497 MHz 124: 1385 MHz 125: 1411 MHz 126: 1409 MHz
+           127: 1488 MHz 128: 3143 MHz 129: 1498 MHz 130: 1499 MHz 131: 1498 MHz 132: 1499 MHz 133: 1498 MHz
+           134: 1497 MHz 135: 1497 MHz 136: 1497 MHz 137: 1498 MHz 138: 1499 MHz 139: 1497 MHz 140: 1497 MHz
+           141: 1798 MHz 142: 1497 MHz 143: 1498 MHz 144: 1497 MHz 145: 1499 MHz 146: 1498 MHz 147: 1500 MHz
+           148: 1488 MHz 149: 1283 MHz 150: 1284 MHz 151: 1462 MHz 152: 1494 MHz 153: 1396 MHz 154: 1489 MHz
+           155: 1390 MHz 156: 1795 MHz 157: 1284 MHz 158: 1285 MHz 159: 1285 MHz 160: 1388 MHz 161: 1403 MHz
+           162: 1499 MHz 163: 1498 MHz 164: 1498 MHz 165: 1499 MHz 166: 1497 MHz 167: 1497 MHz 168: 1499 MHz
+           169: 1498 MHz 170: 1500 MHz 171: 1499 MHz 172: 1498 MHz 173: 1498 MHz 174: 1498 MHz 175: 1498 MHz
+           176: 1500 MHz 177: 1500 MHz 178: 1498 MHz 179: 1497 MHz 180: 1500 MHz 181: 1799 MHz 182: 1498 MHz
+           183: 1498 MHz 184: 1798 MHz 185: 1499 MHz 186: 1499 MHz 187: 1498 MHz 188: 1799 MHz 189: 1497 MHz
+           190: 1497 MHz 191: 1499 MHz 192: 1376 MHz 193: 1418 MHz 194: 1385 MHz 195: 1385 MHz 196: 1383 MHz
+           197: 1392 MHz 198: 1388 MHz 199: 1392 MHz 200: 1499 MHz 201: 1497 MHz 202: 1498 MHz 203: 1499 MHz
+           204: 1499 MHz 205: 1499 MHz 206: 1496 MHz 207: 1499 MHz 208: 1898 MHz 209: 1499 MHz 210: 1499 MHz
+           211: 1499 MHz 212: 1499 MHz 213: 1498 MHz 214: 1498 MHz 215: 1499 MHz 216: 1499 MHz 217: 1499 MHz
+           218: 1498 MHz 219: 1499 MHz 220: 1499 MHz 221: 1499 MHz 222: 1499 MHz 223: 1498 MHz 224: 1497 MHz
+           225: 1499 MHz 226: 1499 MHz 227: 1499 MHz 228: 1498 MHz 229: 1500 MHz 230: 1498 MHz 231: 1499 MHz
+           232: 1497 MHz 233: 1497 MHz 234: 1428 MHz 235: 1498 MHz 236: 1497 MHz 237: 1498 MHz 238: 1499 MHz
+           239: 1499 MHz 240: 1499 MHz 241: 1500 MHz 242: 1499 MHz 243: 1499 MHz 244: 1499 MHz 245: 1499 MHz
+           246: 1499 MHz 247: 1498 MHz 248: 1500 MHz 249: 1496 MHz 250: 1496 MHz 251: 1496 MHz 252: 1498 MHz
+           253: 1486 MHz 254: 1488 MHz 255: 1486 MHz
+Graphics:  Card: ASPEED ASPEED Graphics Family
+           Display Server: N/A driver: ast tty size: 115x57
+           OpenGL: renderer: N/A version: N/A
+Network:   Card-1: Intel I350 Gigabit Network Connection driver: igb
+           IF: eno1 state: up speed: 1000 Mbps duplex: full mac: b4:2e:99:bf:b6:a3
+           Card-2: Intel I350 Gigabit Network Connection driver: igb
+           IF: eno2 state: down mac: b4:2e:99:bf:b6:a4
+Drives:    HDD Total Size: 18531.6GB (43.1% used)
+           ID-1: /dev/nvme0n1 model: INTEL_SSDPEKNW020T8 size: 2048.4GB
+           ID-2: /dev/sda model: TOSHIBA_MG06ACA8 size: 8001.6GB
+           ID-3: /dev/sdc model: PNY_CS900_480GB size: 480.1GB
+           ID-4: /dev/sdb model: TOSHIBA_MG06ACA8 size: 8001.6GB
+Partition: ID-1: / size: 430G used: 377G (93%) fs: ext4 dev: /dev/sdc3
+           ID-2: /boot size: 453M used: 163M (39%) fs: ext4 dev: /dev/sdc1
+           ID-3: swap-1 size: 10.00GB used: 0.37GB (4%) fs: swap dev: /dev/sdc2
+RAID:      Device-1: /dev/md0 - active raid: 1 components: online: 2/2 - sdb1 sda1
+Sensors:   System Temperatures: cpu: No active sensors found. Have you configured your sensors yet? mobo: N/A
+Info:      Processes: 2051 Uptime: 8 days Memory: 5479.2/1031895.9MB Client: Shell (collect_environ) inxi: 2.3.56
+[0:0:0:0]    disk    ATA      TOSHIBA MG06ACA8 0104  /dev/sda   8.00TB
+[1:0:0:0]    disk    ATA      TOSHIBA MG06ACA8 0104  /dev/sdb   8.00TB
+[12:0:0:0]   disk    ATA      PNY CS900 480GB  0BB3  /dev/sdc    480GB
+H/W path        Device      Class      Description
+==================================================
+                            system     Computer
+/0                          bus        Motherboard
+/0/0                        memory     1007GiB System memory
+/0/1                        processor  AMD EPYC 7702 64-Core Processor
+/0/2                        processor  AMD EPYC 7702 64-Core Processor
+/0/100                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/100/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/100/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/100/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/8.1/0.3              bus        Advanced Micro Devices, Inc. [AMD]
+/0/100/14                   bus        FCH SMBus Controller
+/0/100/14.3                 bridge     FCH LPC Bridge
+/0/101                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/102                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/103                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/104                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/105                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/106                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/107                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/108                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/109                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/10a                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/10b                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/10c                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/10d                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/10e                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/10f                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/110                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/111                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/112                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/113                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/114                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/115                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/116                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/117                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/118                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/118/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/118/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/118/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/118/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/118/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/118/8.1/0.1              generic    Advanced Micro Devices, Inc. [AMD]
+/0/118/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/118/8.1/0.3              bus        Advanced Micro Devices, Inc. [AMD]
+/0/119                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/11a                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/11b                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/11c                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/11d                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/11e                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/11f                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/120                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/120/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/120/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/120/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/120/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/120/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/120/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/120/8.2                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/120/8.2/0                storage    FCH SATA Controller [AHCI mode]
+/0/121                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/122                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/123                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/124                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/125                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/126                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/127                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128/3.3                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128/3.3/0                storage    Intel Corporation
+/0/128/3.4                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128/3.4/0    eno1        network    I350 Gigabit Network Connection
+/0/128/3.4/0.1  eno2        network    I350 Gigabit Network Connection
+/0/128/3.6                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128/3.6/0                bridge     AST1150 PCI-to-PCI Bridge
+/0/128/3.6/0/0              display    ASPEED Graphics Family
+/0/128/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/128/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/128/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/128/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/128/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/129                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/12a                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/12b                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/12c                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/12d                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/12e                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/12f                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/130                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/130/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/130/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/130/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/130/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/130/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/130/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/131                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/132                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/133                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/134                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/135                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/136                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/137                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/138                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/138/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/138/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/138/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/138/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/138/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/138/8.1/0.1              generic    Advanced Micro Devices, Inc. [AMD]
+/0/138/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/139                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/13a                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/13b                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/13c                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/13d                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/13e                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/13f                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/140                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/140/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/140/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/140/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/140/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/140/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/140/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/140/8.2                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/140/8.2/0                storage    FCH SATA Controller [AHCI mode]
+/0/141                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/142                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/143                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/144                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/145                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/146                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/147                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/148                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/148/7.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/148/7.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/148/7.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/148/8.1                  bridge     Advanced Micro Devices, Inc. [AMD]
+/0/148/8.1/0                generic    Advanced Micro Devices, Inc. [AMD]
+/0/148/8.1/0.2              generic    Advanced Micro Devices, Inc. [AMD]
+/0/149                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/14a                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/14b                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/14c                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/14d                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/14e                      bridge     Advanced Micro Devices, Inc. [AMD]
+/0/14f                      bridge     Advanced Micro Devices, Inc. [AMD]
+/1              virbr0      network    Ethernet interface
+/2              virbr0-nic  network    Ethernet interface
